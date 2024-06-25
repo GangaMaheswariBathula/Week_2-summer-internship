@@ -1,0 +1,155 @@
+.parent{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url("./sbi_bg2_img.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+   margin: 10px;
+
+}
+.main{
+    width: 520px;
+    height: 320px;
+    background-color: white;
+    border-radius: 20px;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.div1{
+    height: 65px;
+    position: relative;
+    display: flex;
+    
+}
+.imgstyle{
+   width: 170px;
+   height: 50px;
+   position: absolute;
+   align-self: flex-end;
+   right: 20px;
+   bottom: 8px;
+   
+}
+.div2{
+    height: 65px;
+    width: 500px;
+    position: relative;
+}
+.sub1{
+    height: 65px;
+    width: 300px;
+    float: left;
+}
+.sub2{
+    height: 65px;
+    width: 200px;
+    float: right;
+    position: relative;
+}
+.content1{
+    height: 45px;
+    width: 200px;
+    color: white;
+    font-size:40px;
+    position: absolute;
+    top: 0px;
+    
+}
+.content2{
+    height: 20px;
+    width: 200px;
+    color: rgba(183, 177, 177, 0.786);
+    position: absolute;
+    bottom: 0px;
+}
+.chipimg{
+   position: absolute;
+   height: 50px;
+   width: 60px;
+   border: 3px solid black;
+   border-radius: 10px;
+   left: 40px;
+   top: 5px;
+
+}
+
+.div3{
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    font-size: 35px;
+}
+.pincode{
+   margin-left: 45px;
+}
+.div4{
+    height: 140px;
+    position: relative;
+
+}
+.valid{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    left: 200px;
+}
+.text1{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    color: white;
+    float: left;
+    font-size: 10px;
+    padding: 7px;  
+}
+.text2{
+    width: 70px;
+    height: 40px;
+    float: right;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.name{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 40px;
+    font-size: 18px;
+}
+.visa{
+     width: 90px;
+     height: 80px;
+     position: absolute;
+     right: 0px;
+}
+.text3{
+    width:90px;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+
+}
+.text4{
+    width:90px;
+    height: 30px;
+    color: gray;
+    position: absolute;
+    bottom: 5px;
+    left: 23px;
+
+}
+
